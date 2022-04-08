@@ -5,7 +5,7 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-
+//..
 public interface CustomerDao {
     public List<Customer> listCustomer(@Param("page") Integer page, @Param("rows") Integer rows, @Param("customerName") String customerName);
     public Integer getCustomerCount(@Param("customerName") String customerName);
